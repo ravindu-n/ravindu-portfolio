@@ -1,6 +1,14 @@
 # Ravindu Naveen — Software Engineering Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-ravindu--portfolio--psi.vercel.app-06b6d4?style=for-the-badge&logo=vercel&logoColor=white)](https://ravindu-portfolio-psi.vercel.app)
+[![React](https://img.shields.io/badge/React%2018-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
 A modern, high-performance personal portfolio website built with **React 18**, **TypeScript**, **Tailwind CSS**, and **Vite**. Features an iridescent **Living Wallpaper** with 3D floating water bubbles, frosted glassmorphism UI, executive circular portrait framing, and direct email delivery via **Web3Forms**.
+
+🔗 **Live Website**: [https://ravindu-portfolio-psi.vercel.app](https://ravindu-portfolio-psi.vercel.app)
 
 ---
 
