@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-A modern, high-performance personal portfolio website built with **React 18**, **TypeScript**, **Tailwind CSS**, and **Vite**. Features an iridescent **Living Wallpaper** with 3D floating water bubbles, frosted glassmorphism UI, executive circular portrait framing, and direct email delivery via **Web3Forms**.
+A modern, high-performance personal software engineering portfolio built with **React 18**, **TypeScript**, **Tailwind CSS**, and **Vite**. Features an iridescent **Living Wallpaper** with 43 realistic 3D floating water bubbles, frosted glassmorphism UI, executive circular portrait framing, and direct email delivery via **Web3Forms**.
 
 🔗 **Live Website**: [https://ravindu-portfolio-psi.vercel.app](https://ravindu-portfolio-psi.vercel.app)
 
@@ -26,14 +26,38 @@ A modern, high-performance personal portfolio website built with **React 18**, *
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Architecture
 
-- **Framework**: [React 18](https://react.dev/)
-- **Build Tool**: [Vite 5](https://vitejs.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS 3](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Form Delivery**: [Web3Forms API](https://web3forms.com/)
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend Framework** | React 18 with TypeScript (`.tsx`) |
+| **Styling & Design** | Tailwind CSS 3, Glassmorphism, CSS Custom Keyframes |
+| **Build Tool & Bundler** | Vite 5 (Lightning-fast HMR & optimized production chunking) |
+| **Iconography** | Lucide React |
+| **Email Delivery API** | Web3Forms RESTful API Integration |
+| **Deployment & Hosting** | Vercel Edge Network (Global CDN, Automated CI/CD from GitHub) |
+
+---
+
+## 📂 Project Structure
+
+```text
+ravindu-portfolio/
+├── public/
+│   ├── favicon.svg             # Custom cyan-indigo brand favicon
+│   ├── profile.jpg             # High-resolution graduation portrait
+│   └── Ravindu_Naveen_CV.pdf   # Downloadable curriculum vitae
+├── src/
+│   ├── index.css               # Tailwind directives & global resets
+│   └── main.tsx                # React root mount entry point
+├── index.html                  # HTML5 entry with OpenGraph & SEO tags
+├── package.json                # Project dependencies and npm scripts
+├── postcss.config.js           # PostCSS configuration for Tailwind
+├── tailwind.config.js          # Tailwind theme & animation extensions
+├── tsconfig.json               # TypeScript strict compilation configuration
+├── vite.config.ts              # Vite bundler configuration with React plugin
+└── ravindu_naveen_software_engineering_portfolio.tsx  # Core portfolio application
+```
 
 ---
 
@@ -64,20 +88,12 @@ Generates optimized, minified production assets in the `dist/` directory.
 
 ---
 
-## 🌐 Free 1-Click Hosting Guide
+## 📬 Contact & Connect
 
-### Deploy on Vercel (Recommended)
-1. Push this repository to your GitHub account (`https://github.com/ravindu-n/ravindu-portfolio`).
-2. Visit [vercel.com](https://vercel.com/) and sign in with GitHub.
-3. Click **"Add New Project"** and select your portfolio repository.
-4. Framework preset will automatically detect **Vite**.
-5. Click **"Deploy"**. Your portfolio will be live worldwide on a custom `.vercel.app` URL with free SSL within 30 seconds!
-
-### Deploy on Netlify
-1. Visit [netlify.com](https://www.netlify.com/) and sign in with GitHub.
-2. Click **"Add new site"** &rarr; **"Import an existing project"**.
-3. Select your repository. Build command is `npm run build` and publish directory is `dist`.
-4. Click **"Deploy"**.
+- **Portfolio**: [https://ravindu-portfolio-psi.vercel.app](https://ravindu-portfolio-psi.vercel.app)
+- **LinkedIn**: [https://www.linkedin.com/in/ravindu-naveen-0a364b312/](https://www.linkedin.com/in/ravindu-naveen-0a364b312/)
+- **GitHub**: [https://github.com/ravindu-n](https://github.com/ravindu-n)
+- **Email**: [ravindunaveen123@gmail.com](mailto:ravindunaveen123@gmail.com)
 
 ---
 
