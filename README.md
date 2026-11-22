@@ -45,8 +45,8 @@ Ensure you have **Node.js** (v18 or higher) installed.
 ### 2. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/ravindu-n/portfolio.git
-cd portfolio
+git clone https://github.com/ravindu-n/ravindu-portfolio.git
+cd ravindu-portfolio
 npm install
 ```
 
@@ -67,7 +67,7 @@ Generates optimized, minified production assets in the `dist/` directory.
 ## 🌐 Free 1-Click Hosting Guide
 
 ### Deploy on Vercel (Recommended)
-1. Push this repository to your GitHub account (`https://github.com/ravindu-n/<repo-name>`).
+1. Push this repository to your GitHub account (`https://github.com/ravindu-n/ravindu-portfolio`).
 2. Visit [vercel.com](https://vercel.com/) and sign in with GitHub.
 3. Click **"Add New Project"** and select your portfolio repository.
 4. Framework preset will automatically detect **Vite**.
